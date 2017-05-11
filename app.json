@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/personalCenter/personalCenter",
+    "pages/testpage/testpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "Find",
+        "iconPath":"pictures/i11.png",
+        "selectedIconPath":"pictures/i12.png"
+      },
+      {
+        "pagePath":"pages/personalCenter/personalCenter",
+        "text":"Me"
+      },
+      {
+        "pagePath":"pages/testpage/testpage",
+        "text":"Test"
+      }
+    ],
+    "position":"bottom"
+  }
+}

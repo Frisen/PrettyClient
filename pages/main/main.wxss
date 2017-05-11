@@ -1,0 +1,51 @@
+/**index.wxss**/
+.body{
+}
+.pics{
+  text-align: center;
+  width: 100%;
+}
+.picGroup{
+   display:flex;
+    flex-direction:row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.lbl{
+  text-align: center;
+}
+.txtTip{
+  color: gray;
+}
+.viewChoose{
+  margin-top: 100rpx;
+}
+.bottom{
+  height: 500rpx;
+  padding-top: 0rpx;
+  padding-bottom: 0rpx;
+  background: lightgray;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}
+button{
+  margin-top: 10rpx;
+}
+.button-sp-area{
+  margin: 10rpx auto;
+  width: 100%;
+  text-align: center;
+}
+.img{
+  margin: 5rpx;
+}
+.icon{
+  width: 81rpx;
+  height: 81rpx;
+}
+.right{
+  width: 100%;
+  text-align: right;
+}

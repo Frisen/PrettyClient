@@ -1,0 +1,22 @@
+<view class="body">
+  
+  <view class="right">
+    <image id="btn_upload" src="{{addorcancel}}" class='icon' bindtap="upLoadPic"></image>
+  </view>
+  <view class="pics">
+    <view class="picGroup">
+      <image class="img" src="../../pictures/1.jpg"></image>
+      <image class="img" src="../../pictures/2.jpg"></image>
+    </view>
+    <view class="picGroup">
+         <view class="picGroup">
+      <image class="img" src="../../pictures/3.jpg"></image>
+      <image class="img" src="../../pictures/4.jpg"></image>
+    </view>
+    </view>
+  </view>
+  <view class="button-sp-area">
+    <button class="mini-btn" type="primary" size="mini">按钮</button>
+        <button class="mini-btn" type="normal" size="mini">按钮</button>
+  </view>
+</view>
